@@ -1,0 +1,306 @@
+CRITICAL - 2022-01-05 16:36:29 --> strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Non-s...', 'C:\\xampp\\htdocs...', 239, Array)
+#1 C:\xampp\htdocs\belajarci4\system\Autoloader\Autoloader.php(239): strpos('Kint\\Kint', 0)
+#2 C:\xampp\htdocs\belajarci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Kint\\Kint')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Kint\\Kint')
+#4 C:\xampp\htdocs\belajarci4\system\ThirdParty\Kint\init.php(48): spl_autoload_call('Kint\\Kint')
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(244): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#7 C:\xampp\htdocs\belajarci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#8 C:\xampp\htdocs\belajarci4\spark(45): require('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-05 16:41:33 --> strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Non-s...', 'C:\\xampp\\htdocs...', 239, Array)
+#1 C:\xampp\htdocs\belajarci4\system\Autoloader\Autoloader.php(239): strpos('Kint\\Kint', 0)
+#2 C:\xampp\htdocs\belajarci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Kint\\Kint')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Kint\\Kint')
+#4 C:\xampp\htdocs\belajarci4\system\ThirdParty\Kint\init.php(48): spl_autoload_call('Kint\\Kint')
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(244): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#7 C:\xampp\htdocs\belajarci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#8 C:\xampp\htdocs\belajarci4\spark(45): require('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-05 16:41:47 --> strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Non-s...', 'C:\\xampp\\htdocs...', 239, Array)
+#1 C:\xampp\htdocs\belajarci4\system\Autoloader\Autoloader.php(239): strpos('Kint\\Kint', 0)
+#2 C:\xampp\htdocs\belajarci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Kint\\Kint')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Kint\\Kint')
+#4 C:\xampp\htdocs\belajarci4\system\ThirdParty\Kint\init.php(48): spl_autoload_call('Kint\\Kint')
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(244): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#7 C:\xampp\htdocs\belajarci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#8 C:\xampp\htdocs\belajarci4\spark(45): require('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-05 16:46:38 --> strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Non-s...', 'C:\\xampp\\htdocs...', 239, Array)
+#1 C:\xampp\htdocs\belajarci4\system\Autoloader\Autoloader.php(239): strpos('Kint\\Kint', 0)
+#2 C:\xampp\htdocs\belajarci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Kint\\Kint')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Kint\\Kint')
+#4 C:\xampp\htdocs\belajarci4\system\ThirdParty\Kint\init.php(48): spl_autoload_call('Kint\\Kint')
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(244): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(186): CodeIgniter\CodeIgniter->initializeKint()
+#7 C:\xampp\htdocs\belajarci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#8 C:\xampp\htdocs\belajarci4\spark(45): require('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-01-05 16:50:05 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-05 16:50:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\belajarci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\belajarci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\belajarci4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\belajarci4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\belajarci4\app\ThirdParty\myth-auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\belajarci4\app\ThirdParty\myth-auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 C:\xampp\htdocs\belajarci4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-01-05 16:53:04 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-05 16:53:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\belajarci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\belajarci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\belajarci4\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('hatta', 'username', Array, NULL)
+#4 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'hatta', Array, Array)
+#5 C:\xampp\htdocs\belajarci4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\belajarci4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-01-05 16:58:01 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-05 16:58:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\belajarci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\belajarci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\belajarci4\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('hatta', 'username', Array, NULL)
+#4 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'hatta', Array, Array)
+#5 C:\xampp\htdocs\belajarci4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\belajarci4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-01-05 17:04:55 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+ERROR - 2022-01-05 17:05:34 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-05 17:05:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\belajarci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\belajarci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\belajarci4\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('hatta', 'username', Array, NULL)
+#4 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'hatta', Array, Array)
+#5 C:\xampp\htdocs\belajarci4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\belajarci4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-01-05 17:13:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-05 17:13:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\belajarci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\belajarci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\belajarci4\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('hatta', 'username', Array, NULL)
+#4 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'hatta', Array, Array)
+#5 C:\xampp\htdocs\belajarci4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\belajarci4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-01-05 17:13:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-05 17:13:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\belajarci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\belajarci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\belajarci4\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('hatta', 'username', Array, NULL)
+#4 C:\xampp\htdocs\belajarci4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'hatta', Array, Array)
+#5 C:\xampp\htdocs\belajarci4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\xampp\htdocs\belajarci4\app\ThirdParty\myth-auth\src\Controllers\AuthController.php(161): CodeIgniter\Controller->validate(Array)
+#7 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptRegister()
+#8 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-01-05 17:18:27 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-01-05 17:56:55 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 17:57:38 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 17:57:40 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 17:57:47 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 17:58:19 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:00:02 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:00:14 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:00:43 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:04:21 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:04:22 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:04:24 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:04:25 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:04:29 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:04:32 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:06:02 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-05 18:06:04 --> Invalid file: dashboard.php
+#0 C:\xampp\htdocs\belajarci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 C:\xampp\htdocs\belajarci4\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\belajarci4\app\Controllers\Home.php(15): view('dashboard')
+#3 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\belajarci4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\belajarci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\belajarci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
